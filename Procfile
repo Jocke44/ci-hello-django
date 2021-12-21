@@ -1,1 +1,1 @@
-web: node index.js
+web: gunicorn django_todo.wsgi:application
